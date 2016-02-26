@@ -1,0 +1,21 @@
+{
+  "name": "fast-gs",
+  "version": "0.2.0",
+  "description": "Fast Google Spreadsheet to Object or Array converter",
+  "main": "index.js",
+  "scripts": {
+    "bump-version": "bump --prompt --commit --tag --push && npm publish"
+  },
+  "author": "Marco Bettiolo <marco@bettiolo.it>",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "node-fetch": "^1.3.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "version-bump-prompt": "^1.5.2"
+  }
+}
